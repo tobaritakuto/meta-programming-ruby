@@ -5,6 +5,7 @@
 > メタプログラミングとは、コードを記述するコードを記述することである。
 ## 1.1 ゴーストタウンと市場 [(コード)](ch01/1.1.rb)
 - 言語要素(language constructs)
+  - TODO
 - イントロスペクション
   - https://learntutorials.net/ja/ruby/topic/8752/rubyのイントロスペクション
 ## 1.2 メタプログラマのボブの物語
