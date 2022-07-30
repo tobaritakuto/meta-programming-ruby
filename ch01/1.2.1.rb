@@ -29,11 +29,11 @@ class Book < Entity
 
   # ちなみに book テーブルがすでにあり、 id, title, author カラムが用意されている前提。
   def title=value
-    set "title", value
+    set "title", value　# スーパクラスの set を呼び出してる
   end
 
   def author
-    get "author"
+    get "author"　# スーパクラスの get を呼び出してる
   end
 
   def author=value
