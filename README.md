@@ -17,7 +17,7 @@
   - Entity を継承し、Book テーブルにレコード(id,title,author)を追加更新できるクラスを用意
 ### 1.2.2 メタプログラミングに突入 [(コード)](ch01/1.2.2.rb)
 - ActiveRecord::Baseを継承する  Book クラス
-  - ActiveRecord が実行時にクラス名 Book を参照して(イントロスペクション)、  
+  - ActiveRecord がコード実行時にクラス名 Book を参照して(イントロスペクション)、  
     books テーブルにマッピングしている。
   - book.author を呼び出した場合、**実行時**に、ActiveRecord が  
   books テーブルに　author カラムを見つけ、アクセサメソッド(getter,setter)を定義している。
